@@ -1,0 +1,60 @@
+VAR edad = 19:
+edad++;
+
+var punto_flotante = 12.5
+
+/*
+Operadores aritmeticos
+Divicion = /
+Multiplicacion = *
+Suma = +
+Resta = -
+Modolo = %
+*/
+
+var ressultado_suma = edad + punto_flotantes
+
+console.log(resultado_suma);
+
+
+
+var edad = 19;
+
+var punto_flotante = 12.5;
+
+/*
+Operadores aritmeticos
+Divicion = /
+Multiplicacion = *
+Suma = +
+Resta = -
+Modolo = %
+*/
+
+var  resultado_suma = edad * 2;
+
+console.log(resultado_suma);
+
+
+console.log(es_par(3));
+
+funcion es_par(nuemro){
+  if(nuemr % 2 == 0){
+     return true;
+   }
+   return falase;
+   }
+   
+ console.log(Math.round(0.9)); 
+ 
+ console.log(Math.ceil(0.3)); 
+ 
+ console.log(Math.floor(0.9));
+ 
+ console.log(Math.PI); 
+ 
+ console.log(Math.random());
+ 
+ console.log(Math.sqrt(4));
+     
+
