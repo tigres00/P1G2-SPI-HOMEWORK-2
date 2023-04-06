@@ -1,0 +1,91 @@
+if(true){
+  console.log("La condicion fue verdadera");
+}
+
+
+var numero_uno = 23;
+
+var numero_dos = 30;
+
+if(numero_dos > numero_uno){
+  console.log("Entre al bloque");
+
+}
+
+
+var numero_uno = 23;
+
+var numero_dos = 30;
+
+if(numero_uno && true){
+  console.log("Entre al asdas");
+
+}
+
+
+var numero_uno = 23;
+
+var numero_dos = 30;
+
+if(true || false){
+  console.log("Entre al :P");
+ 
+}
+
+
+var numero_uno = 23;
+
+var numero_dos = 30;
+
+if(false || false){
+  console.log("Entre al :P");
+  
+  
+var numero_uno = 30;
+
+var numero_dos = "30";
+
+if(numero_uno === numero_dos){
+  console.log("No imprimio");  
+  
+ }
+ 
+ 
+var numero_uno = 30;
+
+var numero_dos = "30";
+
+if(numero_uno !== numero_dos){
+  console.log("Devuelve falso");  
+  
+ } 
+
+
+var numero_uno = 30;
+
+var numero_dos = "30";
+
+if(numero_uno === numero_dos){
+  console.log("Devuelve falso");  
+ }else if(false){
+ 
+ } 
+ else if(false){
+ 
+ }
+ else{
+   console.log(":P");
+ }
+ 
+ 
+ // bool -> true / false
+ 
+ /* Operadores logicos */
+ // > Mayor que
+ // < Menor que 
+ // || OR
+ // && AND
+ // == ===
+ // != !==
+ // !
+ 
