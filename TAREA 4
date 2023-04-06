@@ -1,0 +1,55 @@
+var nombre = "Samuel";
+var cadena = "Hola "+ nombre;
+console.log(cadena.length);
+
+
+var nombre = "Samuel";
+var cadena = "Hola "+ nombre;
+var resultado = cadena.indexOf("samuel");
+console.log(cadena.length);
+
+
+
+var nombre = "Samuel";
+
+//var cadena = "Hola "+ nombre;
+
+//var resultado = 
+cadena.indexOf("codigoFacilito");
+
+//console.log(cadena.length);
+
+if(nombre.indexOf("samuel") != -1){
+   console.log(Eres el tutor del curso")
+}else{
+   console.log("No eres el tutor del 
+curso");
+}
+console.log(nombre.indexOf("samuel"));
+
+
+var nombre = "2 Samuel";
+
+//var cadena = ´samuel ´+ nombre;
+
+//var resultado = 
+cadena.indexOf("codigoFacilito");
+
+//console.log(cadena.length);
+/*
+if(nombre.indexOf("samuel") != -1){
+   console.log(Eres el tutor del curso")
+}else{
+   console.log("No eres el tutor del 
+curso");
+}
+*/
+//console.log(nombre[nombre.length -1]);
+//console.log(nombre.charAt(1));
+
+nombre = nombre.replace("U","A");
+//console.log(nombre);
+
+
+console.log(nombre.slice(2,4));
+
