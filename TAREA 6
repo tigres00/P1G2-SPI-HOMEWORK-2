@@ -1,0 +1,55 @@
+var contador = 0;
+while(contador < 11){
+   contador = contador + 1;
+   cosole.log(contador);
+}
+
+
+var contador = 0;
+while(contador < 10){
+  contador++;
+  if(contador % 2 == 0){
+    cosole.log(contador);
+  }
+}
+
+
+var contador = 0;
+while(contador < 10){
+  contador++;
+  if(contador % 2 !== 0){
+    continue;
+   }
+   cosole.log(contador);
+ }
+
+
+var contador = 0;
+while(true){
+  contador++;
+  
+  cosole.log(contador);
+  if(contador >= 10){
+    break;
+   }
+ }
+
+
+var contador = 0;
+do{
+  contador++;
+  
+  cosole.log(contador);
+  if(contador >= 10){
+    break;
+  }  
+}while(false);
+ 
+ 
+ // break
+ //continue
+ 
+ //asdasd
+ 
+ 
+ 
