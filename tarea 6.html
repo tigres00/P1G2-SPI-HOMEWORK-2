@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<title>My Titulo></title>
+</head>
+<boby>
+<p>TAREA - 6</p>
+
+
+<p>Operaciones Logicas</p>
+<button onclick="EjercicioUno()" >EjercicioUno</button>
+
+<p>Operaciones Logicas</p>
+<button onclick="EjercicioDos()" >EjercicioDos</button>
+
+<p>Operaciones Logicas</p>
+<button onclick="EjercicioTres()" >EjercicioTres</button>
+
+<p>Operaciones Logicas</p>
+<button onclick="EjercicioCuatro()" >EjercicioCuatro</button>
+
+<script>
+//(((5 >= 5) == (9 < 10)) || ((10 >= 10) == (false))
+function EjercicioUno(){
+    if(((5 >= 5) == (9 < 10)) || ((10 >= 10) == (false))){
+        alert("true")
+    }else{
+        alert("False")
+    }
+}
+
+//(((9 < 5) != true) || (false || (5 <= 9)))
+function EjercicioDos(){
+    if(((9 < 5) != true) || (false || (5 <= 9))){
+        alert("true")
+    }else{
+        alert("false")
+    }
+}
+
+//((((7 <= 7) == true) || (false == true))|| !(7 > 7))
+function EjercicioTres(){
+    if((((7 <= 7) == true) || (false == true))|| !(7 > 7)){
+        alert("true")
+    }else{
+        alert("false")
+    }
+}
+
+//(((true  || false) ||(false)) != ((false && false) != (true)))
+function EjercicioCuatro(){
+    if(((true  || false) ||(false)) != ((false && false) != (true))){
+        alert("true")
+    }else{
+        alert("false")
+    }
+}
+
+</script>
+ 
